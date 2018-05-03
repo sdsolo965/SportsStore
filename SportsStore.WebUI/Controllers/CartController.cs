@@ -25,8 +25,8 @@ namespace SportsStore.WebUI.Controllers
 
         public RedirectToRouteResult AddToCart(int productId, string returnUrl)
         {
-            Product product = repository.Products
-                .FirstOrDefault(p => p.ProductID == productId);
+            Product product = repository.Product
+                .FirstOrDefault(p => p.ProductId == productId);
             if (product != null)
             {
                 GetCart().AddItem(product, 1);
@@ -36,8 +36,8 @@ namespace SportsStore.WebUI.Controllers
 
         public RedirectToRouteResult RemoveFromCart(int productId, string returnUrl)
         {
-            Product product = repository.Products
-                .FirstOrDefault(p => p.ProductID == productId);
+            Product product = repository.Product
+                .FirstOrDefault(p => p.ProductId == productId);
             if (product != null)
             {
                 GetCart().RemoveLine(product);
