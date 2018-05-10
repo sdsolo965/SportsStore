@@ -1,0 +1,16 @@
+X-Sender: sportsstore@example.com
+X-Receiver: orders@example.com
+MIME-Version: 1.0
+From: sportsstore@example.com
+To: orders@example.com
+Date: 10 May 2018 12:42:38 -0400
+Subject: New order submitted!
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+A new order has been submitted=0D=0A---=0D=0AItems:=0D=0A1 x Kaya=
+k (subtotal: $275.001 x Corner Flags (subtotal: $34.951 x Soccer =
+Ball (subtotal: $19.50Total order value: $329.45---=0D=0AShip to:=
+=0D=0AShane Solomon=0D=0A1234 United States Blvd=0D=0A=0D=0A=0D=0A=
+Freedomville=0D=0AWashington=0D=0AMerica=0D=0A12345=0D=0A---=0D=0A=
+Gift wrap: No
